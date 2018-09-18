@@ -25,3 +25,5 @@ git config --global user.email "xxx@yungengxin.com" #配置email
 --no-ff是关闭快速合并的选项，建议每次合并都要这样。
 
 创建本地develop分支  并且关联到远程分支origin/develop   git checkout -b develop origin/develop
+
+删除分支：git push origin :zhengdiao  "zhengdiao" 远程分支名称
