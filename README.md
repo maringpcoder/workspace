@@ -26,4 +26,8 @@ git config --global user.email "xxx@yungengxin.com" #配置email
 
 创建本地develop分支  并且关联到远程分支origin/develop   git checkout -b develop origin/develop
 
+指定当前分支和远程分支之间的链接关系 git branch --set-upstream marin origin/marin  marin是本地分支，origin/marin是远程分支
+
 删除分支：git push origin :zhengdiao  "zhengdiao" 远程分支名称
+
+将本地分支推送到远程分支 如果远程分支不存在则会自动新建远程分支 ： git push origin marin:marin  marin是本地分支 远程分支是marin分支
