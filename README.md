@@ -31,3 +31,5 @@ git config --global user.email "xxx@yungengxin.com" #配置email
 删除分支：git push origin :zhengdiao  "zhengdiao" 远程分支名称
 
 将本地分支推送到远程分支 如果远程分支不存在则会自动新建远程分支 ： git push origin marin:marin  marin是本地分支 远程分支是marin分支
+
+修改远程分支 ： git remote set-url origin URL
