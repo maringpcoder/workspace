@@ -33,3 +33,5 @@ git config --global user.email "xxx@yungengxin.com" #配置email
 将本地分支推送到远程分支 如果远程分支不存在则会自动新建远程分支 ： git push origin marin:marin  marin是本地分支 远程分支是marin分支
 
 修改远程分支 ： git remote set-url origin URL
+
+怎么查看当前的git分支是基于哪个分支创建的 ：git reflog --date=local --all | grep 要查询的分支名称
